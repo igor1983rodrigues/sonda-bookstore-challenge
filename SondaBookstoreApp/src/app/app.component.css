@@ -1,0 +1,9 @@
+.nav-main-menu ul.nav{
+    width: 4.5rem;
+    transition: width .4s ease;
+}
+
+.nav-main-menu:hover ul.nav{
+    width: 280px;
+}
+

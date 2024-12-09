@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Se4LmBEu9FfR/1M+sbFj4wMUrYnQfb9fIiROKcmCh5o=",
+  "Source": "SondaBookstoreApi",
+  "BasePath": "_content/SondaBookstoreApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

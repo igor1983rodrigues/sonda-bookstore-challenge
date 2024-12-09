@@ -1,0 +1,6 @@
+@SondaBookstoreApi_HostAddress = http://localhost:5120
+
+GET {{SondaBookstoreApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

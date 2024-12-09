@@ -1,0 +1,16 @@
+version: '3.4'
+services:
+  api:
+    build: ./SondaBookstoreApi
+    ports:
+      - "5000:5000"
+  app:
+    build: ./SondaBookstoreApp
+    ports:
+      - "4200:4200"
+  db:
+    image: postgres
+    environment:
+      POSTGRES_USER: vertrigo
+      POSTGRES_PASSWORD: vertrigo
+      POSTGRES_DB: bookstore
