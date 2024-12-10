@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SondaBookstoreTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4b9f4e1c005ad7355a8f38892c0f5d4769b4247")]
 [assembly: System.Reflection.AssemblyProductAttribute("SondaBookstoreTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SondaBookstoreTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

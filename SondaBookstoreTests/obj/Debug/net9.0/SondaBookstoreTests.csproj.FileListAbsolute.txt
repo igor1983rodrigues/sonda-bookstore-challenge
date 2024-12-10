@@ -119,3 +119,4 @@ X:\Source\repo\sonda-bookstore-challenge\SondaBookstoreTests\bin\Debug\net9.0\Sw
 X:\Source\repo\sonda-bookstore-challenge\SondaBookstoreTests\bin\Debug\net9.0\Castle.Core.dll
 X:\Source\repo\sonda-bookstore-challenge\SondaBookstoreTests\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.InMemory.dll
 X:\Source\repo\sonda-bookstore-challenge\SondaBookstoreTests\bin\Debug\net9.0\Moq.dll
+X:\Source\repo\sonda-bookstore-challenge\SondaBookstoreTests\obj\Debug\net9.0\SondaBookstoreTests.sourcelink.json

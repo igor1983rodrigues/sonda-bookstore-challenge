@@ -122,4 +122,4 @@ X:\Source\repo\sonda-bookstore-challenge\SondaBookstoreApi\obj\Debug\net9.0\ref\
 X:\Source\repo\sonda-bookstore-challenge\SondaBookstoreApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 X:\Source\repo\sonda-bookstore-challenge\SondaBookstoreApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 X:\Source\repo\sonda-bookstore-challenge\SondaBookstoreApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-X:\Source\repo\sonda-bookstore-challenge\SondaBookstoreApi\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+X:\Source\repo\sonda-bookstore-challenge\SondaBookstoreApi\obj\Debug\net9.0\SondaBookstoreApi.sourcelink.json

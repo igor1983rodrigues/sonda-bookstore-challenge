@@ -3,13 +3,13 @@
     <div class="nav nav-pills nav-flush flex-column mb-auto text-center nav-main-menu">
       <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
         <li class="nav-item">
-          <a class="nav-link active py-3 border-bottom rounded-0" routerLink="#">Livro</a>
+          <a class="nav-link py-3 border-bottom rounded-0" [routerLink]="['/book']" routerLinkActive="active">Livro</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link py-3 border-bottom rounded-0" routerLink="#">Autor</a>
+          <a class="nav-link py-3 border-bottom rounded-0" routerLink="/author" routerLinkActive="active">Autor</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link py-3 border-bottom rounded-0" routerLink="#">Assunto</a>
+          <a class="nav-link py-3 border-bottom rounded-0" routerLink="/subject" routerLinkActive="active">Assunto</a>
         </li>
       </ul>
     </div>

@@ -10,6 +10,12 @@ internal class Program
     {
         var builder = WebApplication.CreateBuilder(args);
 
+        // builder.WebHost.ConfigureKestrel(serverOptions =>
+        // {
+        //     serverOptions.ListenAnyIP(5000); // Porta HTTP
+        //     serverOptions.ListenAnyIP(5001, listenOptions => listenOptions.UseHttps()); // Porta HTTPS
+        // });
+
         builder.Services.AddDbContext<SondaBookstoreContext>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
         // Add services to the container.
@@ -27,7 +33,14 @@ internal class Program
         builder.Services.AddScoped<IAuthorBusiness, AuthorBusiness>();
         builder.Services.AddScoped<ISubjectBusiness, SubjectBusiness>();
 
+
+
         var app = builder.Build();
+        // using (var scope = app.Services.CreateScope())
+        // {
+        //     var dbContext = scope.ServiceProvider.GetRequiredService<SondaBookstoreContext>();
+        //     dbContext.Database.Migrate();
+        // }
 
         // Configure the HTTP request pipeline.
         if (app.Environment.IsDevelopment())

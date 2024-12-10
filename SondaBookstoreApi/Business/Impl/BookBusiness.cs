@@ -2,6 +2,7 @@
 using SondaBookstoreApi.Model.Dto;
 using SondaBookstoreApi.Model.Entity;
 using SondaBookstoreApi.Model.Repository;
+using System.Text.RegularExpressions;
 
 namespace SondaBookstoreApi.Business.Impl
 {

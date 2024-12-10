@@ -1,16 +1,37 @@
 version: '3.4'
 services:
   api:
-    build: ./SondaBookstoreApi
+#    build: ./SondaBookstoreApi
+    build:
+      context: ./SondaBookstoreApi
+      dockerfile: Dockerfile
     ports:
       - "5000:5000"
+      - "5001:5001"
+    depends_on:
+      - db
+    environment:
+#      - ASPNETCORE_ENVIRONMENT=Development
+#      - ASPNETCORE_URLS=http://+:5000;https://+:5001
+    - ASPNETCORE_ENVIRONMENT=Development
+    - DOTNET_RUNNING_IN_CONTAINER=true
+    - ASPNETCORE_URLS=http://+:5000
   app:
-    build: ./SondaBookstoreApp
+    # build: ./SondaBookstoreApp
+    # ports:
+    #   - "4200:4200"
+    build:
+      context: ./SondaBookstoreApp
+      dockerfile: Dockerfile
     ports:
-      - "4200:4200"
+      - "4200:80" # Mapear a porta 80 do contêiner para a porta 4200 no host
+    depends_on:
+      - api # Certifique-se de que o backend está listado aqui, se necessário
   db:
     image: postgres
+    ports:
+      - "5432:5432"
     environment:
-      POSTGRES_USER: vertrigo
+      POSTGRES_USER: postgres
       POSTGRES_PASSWORD: vertrigo
       POSTGRES_DB: bookstore
