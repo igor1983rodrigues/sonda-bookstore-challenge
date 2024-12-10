@@ -11,6 +11,12 @@
 npm-debug.log
 yarn-error.log
 
+# .NET
+/bin
+/obj
+/packages
+*.dll
+
 # IDEs and editors
 .idea/
 .project
